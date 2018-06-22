@@ -1,0 +1,107 @@
+/* Imagen principal */
+#imagen-principal{
+	width: 100%;
+}
+
+body{
+	background: #f93;
+	margin: 1% 2%;
+}
+
+/* aside */
+#side-right{
+	width: 30%;
+	float: right;
+}
+aside img{
+	width: 100%;
+}
+
+/* Login */
+.login-box{
+	width: 100%;
+	background: url("../img/encuesta.jpg");
+	padding-right: 5%;
+	padding-left: 5%;
+	box-sizing: border-box;
+	border: #663 5px solid;
+}
+
+.login-box h1{
+	text-align: center;
+	background: white;
+	font-size: 2.5em;
+	border-radius: 80%;
+}
+
+.login-box input[type="text"],[type="password"]{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 3px solid black;
+	background: transparent;
+}
+
+.login-box input[type="submit"]{
+	height: 40px;
+	background-color: black;
+	font-size: 16px;
+	border-radius: 20px;
+	color: white;
+}
+
+.login-box input[type="submit"]:hover{
+	color: #44F099;
+	font-size: 19px;
+	background: #0B5FA0;
+}
+
+.login-box label{
+	background: #91EDB1;
+	text-align: center;
+}
+
+/* Sección de cartas */
+.cards{
+	width: 20%;
+	height: 40%;
+	display: inline-block;
+	border: #060 5px solid;
+	margin: 5px;
+	background: green;
+	color: white;
+	text-align: center;
+}
+
+div.cards img{
+	width: 100%;
+	height: 150px;
+}
+
+.Encuesta{
+	width: 80%;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+}
+
+.Encuesta table{
+	text-align: center;
+	width: 85%;
+	background: #49FBB6;
+}
+
+.Encuesta input[type="submit"]:hover{
+	color: #44F099;
+	font-size: 19px;
+	background: #0B5FA0;
+}
+
+table, th, td{
+	border: 3px solid black;
+	font-size: 19px;
+	font-family: 'Indie Flower', cursive;
+	border-collapse: collapse;
+}
